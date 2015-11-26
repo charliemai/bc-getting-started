@@ -1,0 +1,6 @@
+{
+  "name": "Getting Started of BusinessConnect on Heroku",
+  "description": "A barebones BusinessConnect Java app, which can easily be deployed to Heroku.",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
