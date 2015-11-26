@@ -127,16 +127,16 @@ Now you can set your channel secret and channel access token:
 
 ```console
 $ heroku config:set CHANNEL_SECRET=<your channel secret>
-Setting config vars and restarting fierce-hollows-6398... done
+Setting config vars and restarting guarded-atoll-4857... done
 $ heroku config:set CHANNEL_ACCESS_TOKEN=<your channel access token>
-Setting config vars and restarting fierce-hollows-6398... done
+Setting config vars and restarting guarded-atoll-4857... done
 ```
 
 Store these setting into `.env` file:
 
 ```console
 $ heroku config:pull
-Config for fierce-hollows-6398 written to .env
+Config for guarded-atoll-4857 written to .env
 ```
 
 You may execute `heroku config:push` to restore these setting to your heroku host. More information about heroku
